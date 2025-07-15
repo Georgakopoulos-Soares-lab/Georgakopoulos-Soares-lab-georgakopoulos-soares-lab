@@ -16,6 +16,10 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "paths": {
+      "@georgakopoulos-soares-lab/shared-ui": ["./libs/shared-ui/src/index.ts"],
+      "@georgakopoulos-soares-lab/api": ["./libs/apiui/src/index.ts"]
+    }
   }
 }

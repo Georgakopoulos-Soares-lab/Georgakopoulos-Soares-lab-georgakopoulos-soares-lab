@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Georgakopoulos-Soares Lab"
+    },
+    "tagline": {
+      "type": "text"
+    },
+    "footerText": {
+      "type": "text"
+    },
+    "footerTitle": {
+      "type": "string"
+    }
+  }
+}
